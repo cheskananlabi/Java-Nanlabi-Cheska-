@@ -2,7 +2,7 @@ package Basic_Structure_and_Syntax;
 
 public class main {
     public static void main(String[] args) {
-        System.out.println
+        /* System.out.println
         ("Hello, World!");
         System.out.println
         ("Welcome to Java programming.");
@@ -16,7 +16,8 @@ public class main {
         ("I came from my mothers womb.");
         System.out.println
         ("Happy coding!");
-
+        */
+       
         System.out.print ("Addition: ");
         System.out.println ("6 + 7 = " + (6 + 7)); // This is addition
 
