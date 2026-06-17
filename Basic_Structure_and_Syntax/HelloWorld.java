@@ -2,7 +2,7 @@ package Basic_Structure_and_Syntax;
 
 public class HelloWorld {
     public static void HelloWorld(String[] args) {
-        /* System.out.println
+        System.out.println
         ("Hello, World!");
         System.out.println
         ("Welcome to Java programming.");
@@ -16,7 +16,6 @@ public class HelloWorld {
         ("I came from my mothers womb.");
         System.out.println
         ("Happy coding!");
-        */
        
         System.out.print ("Addition: ");
         System.out.println ("6 + 7 = " + (6 + 7)); // This is addition
@@ -28,6 +27,11 @@ public class HelloWorld {
         System.out.println ("6 * 7 = " + (6 * 7)); // This is multiplication
 
         System.out.print ("Division: ");
-        System.out.println ("6 / 7 = " + (6 / 7)); // This is division, but since both 6 and 7 are integers, it will perform integer division and return 0  
+        System.out.println ("6 / 7 = " + (6 / 7)); // This is division, but since both 6 and 7 are integers, it will perform integer division and return 0 
     }
+
+    /*Hello
+    World
+    HEhe
+    */
 }
