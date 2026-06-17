@@ -13,7 +13,7 @@ public class main {
         System.out.println
         ("I am 16 years old.");
         System.out.println
-        ("I am from my mothers womb.");
+        ("I came from my mothers womb.");
         System.out.println
         ("Happy coding!");
         System.out.print ("Addition: ");
