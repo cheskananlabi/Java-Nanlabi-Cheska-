@@ -16,13 +16,13 @@ public class main {
         ("I am from my mothers womb.");
         System.out.println
         ("Happy coding!");
-        System.out.println
-        ("Addition: " + (6 + 7));
-        System.out.println
-        ("Subtraction: " + (6 - 7));
-        System.out.println
-        ("Multiplication: " + (6 * 7));
-        System.out.println
-        ("Division: " + (6 / 7));
+        System.out.print ("Addition: ");
+        System.out.println ("6 + 7 = " + (6 + 7));
+        System.out.print ("Subtraction: ");
+        System.out.println ("6 - 7 = " + (6 - 7));
+        System.out.print ("Multiplication: ");
+        System.out.println ("6 * 7 = " + (6 * 7));
+        System.out.print ("Division: ");
+        System.out.println ("6 / 7 = " + (6 / 7));
     }
 }
