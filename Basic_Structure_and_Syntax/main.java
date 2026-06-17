@@ -16,12 +16,16 @@ public class main {
         ("I came from my mothers womb.");
         System.out.println
         ("Happy coding!");
+
         System.out.print ("Addition: ");
         System.out.println ("6 + 7 = " + (6 + 7));
+
         System.out.print ("Subtraction: ");
         System.out.println ("6 - 7 = " + (6 - 7));
+
         System.out.print ("Multiplication: ");
         System.out.println ("6 * 7 = " + (6 * 7));
+
         System.out.print ("Division: ");
         System.out.println ("6 / 7 = " + (6 / 7));
     }
