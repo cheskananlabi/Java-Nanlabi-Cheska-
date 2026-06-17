@@ -18,15 +18,15 @@ public class main {
         ("Happy coding!");
 
         System.out.print ("Addition: ");
-        System.out.println ("6 + 7 = " + (6 + 7));
+        System.out.println ("6 + 7 = " + (6 + 7)); // This is addition
 
         System.out.print ("Subtraction: ");
-        System.out.println ("6 - 7 = " + (6 - 7));
+        System.out.println ("6 - 7 = " + (6 - 7)); // This is subtraction
 
         System.out.print ("Multiplication: ");
-        System.out.println ("6 * 7 = " + (6 * 7));
+        System.out.println ("6 * 7 = " + (6 * 7)); // This is multiplication
 
         System.out.print ("Division: ");
-        System.out.println ("6 / 7 = " + (6 / 7));
+        System.out.println ("6 / 7 = " + (6 / 7)); // This is division, but since both 6 and 7 are integers, it will perform integer division and return 0  
     }
 }
