@@ -6,7 +6,7 @@ public class datatypes {
         String Title = "Activity # 2 : Data Types";
         System.out.println(Title);
 
-        String name = "Cheska L. Nanlabi";
+        String name = "Linda Marie Walker";
         System.out.println("Name: " + name);
         
         int age = 16;
@@ -18,32 +18,35 @@ public class datatypes {
         float Weight = 55.0f;
         System.out.println("(Float) Weight: " + Weight);
 
-        byte Allowance = 100;
-        System.out.println("(Byte) Allowance: " + Allowance);
+        short height = 153;
+        System.out.println("(Short) Height" + height);
+
+        byte subjectsPassed = 9;
+        System.out.println("(Byte) Allowance: " + subjectsPassed);
+
+        float generalAverage = 99.25f;
+        System.out.println("(Float) General Average: " + generalAverage);
 
         long cpnumber = 639638672919L;
         System.out.println("(Long) Cellphone Number: " + cpnumber);
 
-        short zipcode = 1440;
-        System.out.println("(Short) Zip Code" + zipcode);
- 
-        Boolean gender = true;
-        System.out.println("(Boolean) Female: "+ gender); 
+        Boolean honorStudent = true;
+        System.out.println("(Boolean) Honor Student: "+ honorStudent); 
         
-        float scientificFloat = 5.9e1f;
-        System.out.println("Scientific Float: " + scientificFloat);
+        float scientificFloat = 2.4e1f;
+        System.out.println("(Scientific Float) BMI Result: " + scientificFloat);
 
-        double scientificDouble = 2.1e6d;
-        System.out.println("Scientific Double: " + scientificDouble);
+        double scientificDouble = 9.8e2d;
+        System.out.println("(Scientific Double) Mathematics Grade: " + scientificDouble);
 
-        char bloodtype1 = 'O', bloodtype2 = 'A', bloodtype3 = 'B';
-        System.out.println("(Char) Blood Type " + bloodtype1);
-        System.out.println("(Char) Blood Type " + bloodtype2);
-        System.out.println("(Char) Blood Type " + bloodtype3);
+        char bloodtype = 'O', Section = 'R', grading = 'A';
+        System.out.println("(Char) Blood Type " + bloodtype);
+        System.out.println("(Char) Blood Type " + Section);
+        System.out.println("(Char) Blood Type " + grading);
 
-        String firstName = "Cheska", middleName = "Limen", lastName = "Nanlabi";
+        String firstName = "Linda", secondName = "Marie", lastName = "Walker";
         System.out.println("First Name: " + firstName);
-        System.out.println("Middle Name: " + middleName);
+        System.out.println("Middle Name: " + secondName);
         System.out.println("Last Name: " + lastName);
 
         var myIntvar = 153;
@@ -56,9 +59,9 @@ public class datatypes {
         System.out.println("(Char Var) Grade Result: " + myCharvar);
 
         var myBooleanvar = false;
-        System.out.println("(Status) Teacher: " + myBooleanvar);
+        System.out.println("(Boolean Var) Honor Student: " + myBooleanvar);
 
-        var myStringvar = "I hate u";
-        System.out.println("(String)" + myStringvar);
+        var myStringvar = "Programming";
+        System.out.println("(String) Major Subject: " + myStringvar);
     }
 }
