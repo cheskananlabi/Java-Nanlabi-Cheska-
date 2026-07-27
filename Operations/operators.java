@@ -18,8 +18,8 @@ public class operators {
         quotient = dividend/divisor;
         System.out.println("Quotient is: " + quotient);
 
-        float dividend2 = 21, divisor2 = 4, quotient1;
-        float floatQuotient = (float) dividend2/divisor2;
+        float dividend2 = 21, divisor2 = 4, floatQuotient;
+        floatQuotient = (float) dividend2/divisor2;
         System.out.println("Float Quotient is: " + floatQuotient);
 
         int remainder = (int) dividend % (int) divisor;

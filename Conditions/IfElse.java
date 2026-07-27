@@ -5,6 +5,7 @@ public class IfElse {
         System.out.println ("Coffee Shop");
 
         String order = "latte";
+        System.out.println("Order: " + order);
         int money = 5;
 
         if (money <= 3) {
