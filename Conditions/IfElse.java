@@ -2,39 +2,23 @@ package Conditions;
 
 public class IfElse {
     public static void main(String[] args) {
+        System.out.println ("Coffee Shop");
 
-        System.out.println("If Statement Example");
-        boolean a = 8 != 5;
+        String order = "latte";
+        int money = 5;
 
-        if (a) {
-            System.out.println("True");
-        }
-        // ---------------------------
-
-        System.out.println("If-Else Statement Example");
-        int number = -1;
-
-        if (number > 0) {
-            System.out.println("The number is positive.");
+        if (money <= 3) {
+            System.out.println("You don't have enough money for a Latte.");
+        } else if (money <= 4) {
+            System.out.println("You still need $1 for a Latte.");
+        } else if (money == 5) {
+            System.out.println("You just have enough money for a Latte.");
         } else {
-            System.out.println("The number is negative.");
-        }
-        // ---------------------------
-
-        System.out.println("If Then Else If Statement Example");
-        int age = 18;
-        if (age < 13) {
-            System.out.println("You are still a child.");
-        } else if (age < 20) {
-            System.out.println("You are now a teenager.");
-        } else if (age < 65) {
-            System.out.println("You are an adult.");
-        } else {
-            System.out.println("You are a senior citizen.");
+            System.out.println("You have enough money for a Latte.");
         }
         
         //---------------------------
-        System.out.println("Switch Statement Example");
+        System.out.println("Days in a week:");
         int day = 9;
         switch (day) {
             case 1:
