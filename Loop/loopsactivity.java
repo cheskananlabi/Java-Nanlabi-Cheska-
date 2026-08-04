@@ -8,10 +8,8 @@ public class loopsactivity {
 
         Scanner input = new Scanner(System.in);
 
-        // SERVE 5 CUSTOMERS
         for (int customer = 1; customer <= 5; customer++) {
 
-            // Reset order for every customer
             String meal = "None";
             String drink = "None";
             String dessert = "None";
